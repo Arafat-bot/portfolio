@@ -1,0 +1,307 @@
+.entete {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f1f1f;
+    padding: 0.8em 1.2em;
+    border-bottom: 1px solid #2a2a2a;
+    word-spacing: normal;
+}
+.entete .brand {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #fff;
+}
+.classe1 {
+    color: #00bcd4;
+}
+
+.nav a {
+    margin-left: 1em;
+    color: #ccc;
+    font-size: 1em;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease;
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    gap: 2.5em;
+}
+.nav a:hover {
+    color: #00bcd4;
+}
+
+
+.contenuHero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+.contenuApropos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.textHero, .textApropo {
+    flex: 1;
+    min-width: 320px;
+}
+.textApropo p {
+    text-align: left;
+    padding-right: 50%;
+}
+main h2 {
+    text-align: center;
+    color: #00bcd4;
+    margin: 1em;
+}
+
+.heroImage img {
+    width: 320px;
+    max-width: 100%;
+    margin: 1.5em auto;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 182, 212, 0.4);
+}
+
+.imagee .portrait {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00bcd4;
+    box-shadow: 0 0 15px rgba(0, 188, 212, 0.5);
+}
+
+.hero h3 {
+    margin-bottom: 0;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    margin-top: 0;
+    font-weight: normal;
+}
+.hero .VoirProjets {
+    margin-top: 0.5em;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    
+    color: #f0f0f0;
+}
+
+ h1, h2, h3 {
+    color: #ffffff;
+    margin-bottom: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #00bcd4;
+}
+a:hover {
+    text-decoration: underline;
+}
+header {
+    background-color: #1f1f1f;
+    padding: 2em;
+    text-align: center;
+}
+header h1 {
+    font-size: 2.5em;
+}
+header p {
+    font-size: 1.2em;
+    color: #ccc;
+}
+.VoirProjets {
+    display: inline-block;
+    padding: 0.8em 1.5em;
+    background-color: #00bcd4;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 1em;
+    transition: background-color 0.3s ease;
+}
+.cvTelecharger:hover {
+    background-color: #0097a7;
+}
+section#aPropos {
+    padding: 3em 2em;
+    margin: 0 auto;
+    background-color: #181818;
+    text-align: center;
+}
+section#aPropos p {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+#projets {
+    padding: 3em 2em;
+    background-color: #202020;
+    text-align: center;
+}
+.projet {
+    background-color: #2a2a2a;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 188, 212, 0.2);
+}
+.projet p {
+    color: #ccc;
+    font-size: 1.1em;
+    margin-bottom: 0.8em;
+}
+
+.projet h2 {
+    margin-bottom: 2em;
+    color: #00bcd4;
+}
+.choix span {
+    display: inline-block;
+    background-color: #00bcd4;
+    color: #1f1f1f;
+    padding: 0.3em 0.7em;
+    margin: 0 0.3em;
+    border-radius: 20px;
+    font-size: 0.9em;
+}
+
+section#competences {
+    padding: 3em 2em;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #181818;
+}
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.competence1 {
+    width: 45%;
+    margin-bottom: 2em;
+}
+#competences h2{
+    text-align: center;
+    color: black;
+}
+
+.competence1 h3 {
+    border-bottom: 2px solid #00bcd4;
+    padding-bottom: 0.5em;
+    color: #181818;
+}
+.listCompetence {
+    list-style: none;
+    padding: 0;
+}
+.listCompetence li{
+    padding: 0.3em 0;
+}
+#contact {
+    padding: 3em 2em;
+    background-color: #202020;
+    text-align: center;
+}
+#contact p {
+    font-size: 2.1em;
+    margin-bottom: 2em;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+form input, form textarea {
+    padding: 0.8em;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    margin: 0.5em 0;
+    background-color: #2a2a2a;
+    color: #fff;
+    font-size: 1em;
+    box-shadow: inset 0 0 5px rgba(0, 188, 212, 0.2);
+    transition: box-shadow 0.3s ease, border 0.3s ease;
+}
+
+
+input::placeholder, textarea::placeholder {
+    color: #aaa;
+}
+form input:focus, form textarea:focus {
+    outline: 2px solid #00bcd4;
+    
+}
+
+form button {
+    padding: 0.8em 1.5em;
+    background-color: #00bcd4;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    padding: 0.8em;
+}
+form button:hover {
+    background-color: #0097a7;
+    transform: scale(1.05);
+}
+footer {
+    background-color: #1f1f1f;
+    padding: 1.5em;
+    display: flex;
+    font-size: 0.9em;
+    color: #aaa;
+    align-items: center;
+    justify-content: space-between;
+}
+.gauche {
+    text-align: left;
+}
+.droite {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    .competence1 {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
