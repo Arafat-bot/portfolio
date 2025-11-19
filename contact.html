@@ -18,28 +18,35 @@
     </header>
 
     <main>
-        <section id="contact">
-            <p>Vous avez un <span class="classe1">projet dans la tête ?</span><br> N'hésitez pas à me <span class="classe1">contacter</span></p>
+        <section class="contact-section">
+            <h2>Vous avez un <span style="color: #00bcd4;"> projet en tête ?</span></h2>
+            <p>N'hésitez pas à me <span style="color: #00bcd4;">contacter</span></p>
+
             <form id="contactForm">
-                <label for="prenom">Votre prénom :</label>
-                <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required><br><br>
-                <label for="nom">Votre nom :</label>
-                <input type="text" id="nom" name="nom" placeholder="Votre nom" required><br><br>
-                <label for="sujet">Votre sujet :</label><br>
-                <input type="text" id="sujet" name="sujet" placeholder="votre sujet" value="dévéloppement d'un site vitrine"><br><br>
-                <textarea name="message" placeholder="Ecrivez votre message ici !" required></textarea><br><br>
+                <label for="prenom">Votre prénom</label>
+                <input type="text" id="prenom" placeholder="John" required>
+
+                <label for="nom">Votre nom</label>
+                <input type="text" id="nom" placeholder="Ramako" required>
+
+                <label for="sujet">Votre sujet</label>
+                <input type="text" id="sujet" placeholder="Développement d'un site vitrine" required>
+
+                <label for="message">Écrivez votre message ici :</label>
+                <textarea id="message" rows="5" required></textarea>
+
                 <button type="submit">Envoyer</button>
             </form>
         </section>
-        <footer>
-            <div class="gauche">
-                <p>Designed by Arafat with HTML CSS JS</p>
-            </div>
-            <div class="droite">
-                <p>Tous droits réservés - 2025</p>
-            </div>
-        </footer>
     </main>
     <script src="script.js"></script>
+    <footer>
+        <div class="gauche">
+            <p>Designed by Arafat with HTML CSS JS</p>
+        </div>
+        <div class="droite">
+            <p>Tous droits réservés - 2025</p>
+        </div>
+    </footer>
 </body>
 </html>
