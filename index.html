@@ -1,8 +1,8 @@
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio de YACOUBOU Arafat</title>
+    <title>Acceuil - Portfolio</title>
     <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
@@ -16,109 +16,55 @@
             <a href="contact.html">Contact</a>
         </nav>
     </header>
-    
-    <section id="acceuil" class="hero">
-        <div class="contenuHero">
-            <div class="textHero">
-                <h3>Je suis <span class="classe1">Arafat</span>, Développeur en devenir</h3>
-                <h3>Passionné par le web et design !</h3>
-                <div style="text-align: center;">
-                    <a href="#projets" class="VoirProjets">Voir mes projets</a>
+
+    <main>
+        <section class="sectionCompetence">
+            <h1>Mes Compétences</h1>
+
+            <div class="colonneCompetence">
+                <div class="categorieCompetences">
+                    <h2>Soft Skills</h2>
+                    <div class="competence">
+                        <span>Gestion de Projet</span>
+                        <div class="progress-bar"><div style="width: 85%"></div></div>
+                    </div>
+                    <div class="competence">
+                        <span>Mobilisation Jeunesse</span>
+                        <div class="progress-bar"><div style="width: 90%"></div></div>
+                    </div>
+                    <div class="competence">
+                        <span>Leadership</span>
+                        <div class="progress-bar"><div style="width: 85%"></div></div>
+                    </div>
+                    <div class="competence">
+                        <span>Communication</span>
+                        <div class="progress-bar"><div style="width: 80%"></div></div>
+                    </div>
+                </div>
+
+                <div class="categorieCompetences">
+                    <h2>Hard Skills</h2>
+                    <div class="competence">
+                        <span>HTML/CSS</span>
+                        <div class="progress-bar"><div style="width: 75%"></div></div>
+                    </div>
+                    <div class="competence">
+                        <span>JavaScript</span>
+                        <div class="progress-bar"><div style="width: 70%"></div></div>
+                    </div>
+                    <div class="competence">
+                        <span>MS Office</span>
+                        <div class="progress-bar"><div style="width: 90%"></div></div>
+                    </div>
+                    <div class="competence">
+                        <span>Réseaux Sociaux</span>
+                        <div class="progress-bar"><div style="width: 85%"></div></div>
+                    </div>
                 </div>
             </div>
-
-            <div class="heroImage">
-                <img src="imagee.png" alt="illustration dévéloppeur" class="heroImage">
-            </div>
-        </div>
-    </section>
-    
-    <section id="aPropos">
-        <div class="contenuApropos">
-            <div class="textApropo">
-                <h2> <span class="classe1" id="propos">À propos</span></h2>
-                <p>Je m'appelle <span class="classe1">YACOUBOU</span>, passionné par<br> la création de site web moderne et interactif</p><br>
-                <P>Je suis actuelement étudiant en <span class="classe1">dévéloppement web</span>,<br> et je cherche à améliorer mes compétences en JavaScript, HTML et CSS</P><br>
-                <p>J'adore transformer mes idées en projets concrets<br> et expérimenter avec les nouvelles technologies.</p>
-                <a href="cv_fr_arafat.pdf" class="VoirProjets" download>Télécharger mon CV</a>
-            </div>
-            <div class="imagee">
-                <img src="arafat.png" alt="Photo de YACOUBOU Arafat" class="portrait">
-            </div>
-        </div>
-    </section>
-
-    <section id="projets">
-
-        <h2> <span class="classe1">Mes Projets</span></h2>
-        <div class="projet">
-            <p>Un mini-jeu interactif en JavaScript qui utilise des évènements DOM</p>
-            <div class="choix">
-                <span>#html</span>
-                <span>#css</span>
-                <span>#js</span>
-            </div>
-            <a href="" class="boutonPrimaire">Voir</a>
-        </div>
-
-        <div class="projet">
-            <p>Un Calculateur de Date</p>
-            <div class="choix">
-                <span>#html</span>
-                <span>#css</span>
-                <span>#js</span>
-            </div>
-            <a href="" class="boutonPrimaire">Voir</a>
-        </div>
-
-        <div class="projet">
-            <p>Affichage de la date à temps réel</p>
-            <div class="choix">
-                <span>#html</span>
-                <span>#css</span>
-                <span>#js</span>
-            </div>
-            <a href="" class="boutonPrimaire">Voir</a>
-        </div>
-    </section>
-
-    <section id="competences">
-        <h2>Mes Compétences</h2>
-        <div class="competence1">
-            
-            <h3>Soft Skills</h3>
-            <ul class="listCompetence">
-                <li>Gestion de projet</li>
-                <li>Résolution de problème</li>
-                <li>Adaptabilité</li>
-            </ul>
-        </div>
-        
-        <div class="competence1">
-            <h3>Hard Skills</h3>
-            <ul class="listCompetence">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>VS Code</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="contact">
-        <p>Vous avez un <span class="classe1">projet dans la tête ?</span><br> N'hésitez pas à me <span class="classe1">contacter</span></p>
-        <form id="contactForm">
-            <label for="prenom">Votre prénom :</label>
-            <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required><br><br>
-            <label for="nom">Votre nom :</label>
-            <input type="text" id="nom" name="nom" placeholder="Votre nom" required><br><br>
-            <label for="sujet">Votre sujet :</label><br>
-            <input type="text" id="sujet" name="sujet" placeholder="votre sujet" value="dévéloppement d'un site vitrine"><br><br>
-            <textarea name="message" id="message" placeholder="Ecrivez votre message ici !" required></textarea><br><br>
-            <button type="submit">Envoyer</button>
-        </form>
-    </section>
-
+        </section>
+    </main>
+    <script src="script.js"></script>
     <footer>
         <div class="gauche">
             <p>Designed by Arafat with HTML CSS JS</p>
@@ -127,7 +73,5 @@
             <p>Tous droits réservés - 2025</p>
         </div>
     </footer>
-    <script src="script.js"></script>
 </body>
-
 </html>
